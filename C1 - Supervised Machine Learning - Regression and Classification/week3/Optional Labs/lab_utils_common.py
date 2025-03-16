@@ -240,7 +240,7 @@ def zscore_normalize_features(X):
 ######################################################
 
 
-def plot_data(X, y, ax, pos_label="y=1", neg_label="y=0", s=80, loc='best' ):
+def ploot_data(X, y, ax, pos_label="y=1", neg_label="y=0", s=80, loc='best' ):
     """ plots logistic data with two axis """
     # Find Indices of Positive and Negative Examples
     pos = y == 1
